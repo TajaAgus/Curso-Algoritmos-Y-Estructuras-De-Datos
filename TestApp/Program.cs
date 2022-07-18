@@ -2,6 +2,7 @@
 using TestApp.Sorts;
 using TestApp.Stack;
 using TestApp.Trees;
+using TestApp.Hash;
 
 class Program
 {
@@ -133,9 +134,68 @@ class Program
         //tree.Transversa(raiz);
 
         //Prefix Y PostFix
-        PostfixAndPrefix postfixAndPrefix = new PostfixAndPrefix("-+3*52*73");
-        postfixAndPrefix.Evaluate();
+        //PostfixAndPrefix postfixAndPrefix = new PostfixAndPrefix("1/2+4*5-7");
+        //postfixAndPrefix.Evaluate();
+        //postfixAndPrefix.InToPost();
 
+        //Hash
+        //HashSeparate table = new HashSeparate();
+        //HashTable table = new HashTable(20);
+        //table.Insert(57, "Hola");
+        //table.Insert(57, "Hola");
+        //table.Insert(57, "Hola");
+        //table.Insert(45, "Manzana");
+        //table.Insert(42, "Pera");
+        //table.Insert(83, "Azul");
+        //table.Insert(30, "Rojo");
+        //table.Insert(94, "C#");
+        //table.Insert(73, "C++");
+        //table.Insert(97, "Saludos");
+        //table.Insert(94, "dfghffd");
+        //table.Insert(2, "Saluvfdgdfdos");
+        //table.Insert(13, "Saluvfdgdfdos");
+        //table.Insert(6, "Saluvfdgdfdos");
+        //table.Show();
+
+        //Heap
+        //Heap heap = new Heap(13);
+        //heap.Insert(2);
+        //heap.Insert(5);
+        //heap.Insert(8);
+        //heap.Insert(13);
+        //heap.Insert(1);
+        //heap.Insert(9);
+        //heap.Insert(7);
+        //heap.Show();
+        //Console.WriteLine("Minimo {0}", heap.DeleteMin());
+        //heap.Show();
+        //Console.WriteLine("Minimo {0}", heap.DeleteMin());
+        //Console.WriteLine("Minimo {0}", heap.DeleteMin());
+        //Console.WriteLine("Minimo {0}", heap.DeleteMin());
+        //Console.WriteLine("Minimo {0}", heap.DeleteMin());
+        //Console.WriteLine("Minimo {0}", heap.DeleteMin());
+        //Console.WriteLine("Minimo {0}", heap.DeleteMin());
+        //heap.Show();
+
+        //Grafos
+        Grafo grafo = new Grafo(7);
+        grafo.AdicionarArista(0, 1);
+        grafo.AdicionarArista(0, 2);
+        grafo.AdicionarArista(0, 3);
+        grafo.AdicionarArista(1, 3);
+        grafo.AdicionarArista(1, 4);
+        grafo.AdicionarArista(2, 5);
+        grafo.AdicionarArista(3, 2);
+        grafo.AdicionarArista(3, 5);
+        grafo.AdicionarArista(3, 6);
+        grafo.AdicionarArista(4, 3);
+        grafo.AdicionarArista(4, 6);
+        grafo.AdicionarArista(6, 5);
+
+        grafo.MuestraAdyacencia();
+        grafo.CalcularIndegree();
+        grafo.MostrarIndegree();
+        grafo.Sort();
 
     }
 }
