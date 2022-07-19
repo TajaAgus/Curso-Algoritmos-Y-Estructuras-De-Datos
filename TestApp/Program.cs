@@ -178,25 +178,40 @@ class Program
         //heap.Show();
 
         //Grafos
-        Grafo grafo = new Grafo(7);
-        grafo.AdicionarArista(0, 1);
-        grafo.AdicionarArista(0, 2);
-        grafo.AdicionarArista(0, 3);
-        grafo.AdicionarArista(1, 3);
-        grafo.AdicionarArista(1, 4);
-        grafo.AdicionarArista(2, 5);
-        grafo.AdicionarArista(3, 2);
-        grafo.AdicionarArista(3, 5);
-        grafo.AdicionarArista(3, 6);
-        grafo.AdicionarArista(4, 3);
-        grafo.AdicionarArista(4, 6);
-        grafo.AdicionarArista(6, 5);
-
-        grafo.MuestraAdyacencia();
-        grafo.CalcularIndegree();
-        grafo.MostrarIndegree();
-        grafo.Sort();
-
+        //Grafo grafo = new Grafo(7);
+        //grafo.AdicionarArista(0, 1);
+        //grafo.AdicionarArista(0, 3);
+        //grafo.AdicionarArista(1, 3);
+        //grafo.AdicionarArista(1, 4);
+        //grafo.AdicionarArista(2, 0);
+        //grafo.AdicionarArista(2, 5);
+        //grafo.AdicionarArista(3, 2);
+        //grafo.AdicionarArista(3, 4);
+        //grafo.AdicionarArista(3, 5);
+        //grafo.AdicionarArista(3, 6);
+        //grafo.AdicionarArista(4, 6);
+        //grafo.AdicionarArista(6, 5);
+        //grafo.MuestraAdyacencia();
+        //grafo.CalcularIndegree();
+        //grafo.MostrarIndegree();
+        //grafo.TopologicalSort();
+        //Console.WriteLine("--------------");
+        //grafo.ShortestPath(2, 6);
+        //grafo.AdicionarArista(0, 1, 2);
+        //grafo.AdicionarArista(0, 3, 1);
+        //grafo.AdicionarArista(1, 3, 3);
+        //grafo.AdicionarArista(1, 4, 10);
+        //grafo.AdicionarArista(2, 0, 4);
+        //grafo.AdicionarArista(2, 5, 5);
+        //grafo.AdicionarArista(3, 2, 2);
+        //grafo.AdicionarArista(3, 4, 2);
+        //grafo.AdicionarArista(3, 5, 8);
+        //grafo.AdicionarArista(3, 6, 4);
+        //grafo.AdicionarArista(4, 6, 6);
+        //grafo.AdicionarArista(6, 5, 1);
+        //grafo.MuestraAdyacencia();
+        //grafo.Dijkstra(0, 5);
+        
     }
 }
 
