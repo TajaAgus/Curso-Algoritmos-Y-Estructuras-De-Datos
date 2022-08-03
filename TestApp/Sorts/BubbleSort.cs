@@ -6,7 +6,7 @@
         {
             int cantidad = miLista.Cantidad();
 
-            for (int m = 1; m < cantidad; m++)
+            for (int m = 1; m < cantidad; m++) 
             {
                 for (int n = 0; n < cantidad - m; n++)
                 {
